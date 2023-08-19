@@ -54,10 +54,6 @@ async function loginUser(event){
                     <label htmlFor="username" >Your Username</label><br />
                     <input type="text" id='username' value={loginInfo.username} onChange={(e)=>setLoginInfo({...loginInfo,username:e.target.value})}/>
                 </section>
-                {/* <section>
-                    <label htmlFor="email" >Your email</label><br />
-                    <input type="email" id='email' value={loginInfo.email} onChange={(e)=>setLoginInfo({...loginInfo,email:e.target.value})}/>
-                </section> */}
                 <section>
                     <label htmlFor="password">Password</label><br />
                     <input type="password" id='password' value={loginInfo.password} onChange={(e)=>setLoginInfo({...loginInfo,password:e.target.value})}/>
